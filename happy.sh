@@ -15,7 +15,7 @@ i=0
 while read -r line; do
  ((i++))
  [ $i -eq $rnd ] && break
-done < $FILE 
+done < $FILE  
 printf '%s\n' "$line $(logname)!" 
 echo ""
 #Today will be randomized
@@ -69,3 +69,5 @@ echo "and now for a cool snapple fact!"
 printf '%s\n' "$line" 
 echo ""
 echo ":)" | lolcat -a -d 1
+#ponysay
+#cowsay
